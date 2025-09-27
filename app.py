@@ -10,7 +10,7 @@ import os
 
 # Configuración de OpenAI - usa secretos de Streamlit o fallback
 try:
-    OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+    OPENAI_API_KEY = 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
 except:
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "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")
 
