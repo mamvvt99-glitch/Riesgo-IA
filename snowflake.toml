@@ -1,0 +1,7 @@
+[build]
+# Configuración de build para Snowflake
+python = "3.9"
+
+[deploy]
+# Configuración de despliegue
+platform = "snowflake"
